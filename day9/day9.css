@@ -1,0 +1,27 @@
+.mainsection article div{
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin: 20px;
+ }
+ .mainsection{
+    display: flex;
+    justify-content: center;
+
+ }
+ .mainsection article .largediv{
+    width: 500px;
+    height: 700px;
+    border-radius: 30px;
+ }
+ .mainsection article div img{
+    width: 100px;
+    height: 100px;
+    border-radius: 20px;
+ }
+ .mainsection article .largediv img {
+   width: 500px;
+   height: 700px;
+   border-radius: 20px;
+ }
