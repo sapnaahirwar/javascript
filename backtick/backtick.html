@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .carddesign{
+            width: 500px;
+            border: 2px solid black;
+            border-radius: 10px;
+            height: 200px;
+        }
+        .carddesign article div img{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+        }
+        .carddesign article {
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="" autocomplete="on">
+        <input type="text" placeholder="Enter image url" class="userimageurl"><br>
+        <input type="text" placeholder="Enter your name" class="username"><br>
+        <input type="text" placeholder="Enter your Profeesion" class="userprofession"><br>
+        <input type="text" placeholder="Enter mobile number" class="usermobile"><br>
+        <input type="text" placeholder="Enter your email" class="useremail"><br>
+        <input type="text" placeholder="ENter your address" class="useraddress"><br>
+        <button onclick="return output()">create</button>
+    </form>
+    <div class="showcard"></div>
+
+    <script src="./backtick.js"></script>
+</body>
+</html>
