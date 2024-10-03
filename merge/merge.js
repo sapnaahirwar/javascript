@@ -38,5 +38,19 @@ function data(){
         "age":"",
         "mobile":"",
     }
+    let upobj = {
+        "name" : name,
+        "age" : age,
+        "mobile":mobile
+    }
+    let result = {
+        ...obj,
+        ...upobj
+    }
+    console.log(result)
+}
+
+function sub(){
+    alert("subbiteeddd")
 }
 
